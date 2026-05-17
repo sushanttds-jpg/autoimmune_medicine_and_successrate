@@ -1,34 +1,29 @@
-🩺 Autoimmune Medicine Success Rates Visualization 📊
-A Python script using Matplotlib to generate a 6-panel dashboard visualizing the effectiveness of various autoimmune disease treatments! 🧬✨
+                                                             -----     ---- Autoimmune Medicine Success Rates Visualization    -----     ---- 
+                   
+< Autoimmune Treatment Success Rates Visualization 🧬✨ >
 
-✨ Features
-The script processes a dataset of 20 medicines (e.g., Biologics, DMARDs) and generates:
+A Python data visualization project analyzing and comparing 
+the effectiveness of various autoimmune disease treatments 
+including Lupus, Endometriosis, and Rheumatoid Arthritis.
 
-📊 Horizontal Bar Chart: Individual success rates.
+### 📊 Features
+- Treatment success rate comparisons
+- Disease progression visualizations  
+- Medication effectiveness charts
+- Built with Python, Matplotlib & NumPy
 
-📈 Line Graph: A sorted trendline from lowest to highest success.
+### 🛠️ Tech Stack
+- Python 3.x
+- Matplotlib
+- NumPy
 
-🥧 Pie Chart: Medicine distribution across drug categories.
+### 🚀 How to Run
+pip install matplotlib numpy
+python main.py
 
-📦 Box Plot: Statistical spread of success rates by category.
+### 💙 Motivation :)
+Built to better understand autoimmune conditions 
+and the humans fighting them every day.
+                              
+                     
 
-🔵 Scatter Plot: Success rate distribution, color-coded by category.
-
-📉 Vertical Bar Chart: Average success rate for each category.
-
-🛠️ Requirements
-🐍 Python 3.x
-
-📦 matplotlib
-
-🔢 numpy
-
-Install dependencies using:
-
-Bash
-[ pip install matplotlib numpy ] 
-🚀 Usage
-Run the script to render the Matplotlib dashboard:
-
-Bash
-[ python script_name.py ]
